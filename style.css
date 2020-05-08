@@ -1,0 +1,50 @@
+body 
+{
+	font:Arial;
+	margin:0;
+	padding:0;
+	background-color: rgba(226,226,226,1);
+}
+nav a {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  font-size: 14px;
+}
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+.navbar-brand img{
+	width:45px;
+	height:47px;
+	transition-duration:0.4s;
+}
+nav.shrink .navbar-brand img{
+	width:35px;
+	height:37px;
+	transition-duration:0.4s;
+}
+nav.navbar.shrink {
+  height: 50px;
+  transition-duration:0.4s;
+}
+nav.navbar {
+  height: 70px;
+  transition-duration:0.4s;
+}
+nav.shrink a {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  font-size: 13px;
+}
+nav.shrink .navbar-brand {
+  font-size: 18px;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 13px 15px 8px 0;
+}
